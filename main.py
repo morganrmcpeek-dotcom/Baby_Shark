@@ -1,5 +1,5 @@
 """----------------------------------------------------------------
-Name:       your name
+Name:       Morgan McPeek
 Assignment: Lab - Baby Shark
 Course:     CS 1430, Section X, Fall 2026
 Purpose:    This program is designed to be practice for Python
@@ -28,8 +28,8 @@ def verse(age):
     print(age, "Shark,")
     print("doo-doo-doo-do-do-do-do")
 def main():
-    for n in range(REPEAT):
-        if n == 0:
+    for _ in range(REPEAT):
+        if _ == 0:
             age = "Baby"
             verse(age)
             verse(age)
